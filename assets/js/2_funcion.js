@@ -2,4 +2,4 @@
 //   return a + b;
 // };
 
-const suma2 = (a, b) => { a + b};
+const suma2 = (a, b) => { a + b };

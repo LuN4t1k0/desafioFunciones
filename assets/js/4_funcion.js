@@ -14,8 +14,13 @@ const obtenerColorSegunTecla = (e) => {
     color = "#90C8AC";
   } else if (e.keyCode === 70){
     color = "#73A9AD"
-  }
+  }else if (e.keyCode === 82)
+  refrescarPagina();
 };
+
+const refrescarPagina = () => {
+  location.reload();
+}
 
 document.addEventListener("click", pintarSegunIdObtenido, false);
 document.addEventListener("keydown", obtenerColorSegunTecla, false);
